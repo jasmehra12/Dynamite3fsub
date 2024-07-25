@@ -10,38 +10,38 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6997471583:AAG_eE96kZkZGwH_bQt0rPRshNKQ9od-_Ww")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7124014131:AAEPvSmqcX1ezENlNvoom4lHNtbFM2ROOKY")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22598912"))
+APP_ID = int(os.environ.get("APP_ID", "22225430"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "a89919a4783f00984e13297583742ed0")
+API_HASH = os.environ.get("API_HASH", "4c5c28abd62233ef4b993fb972f83262")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002097623271"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002022164649"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6193451722"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6039119180"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kumarmishrar50:mBaG9rDvaYQkSKGO@cluster0.vjb7wty.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb://jaskaran1230j:4ixC9jGcE6oCw7qT@ac-5j9u7mb-shard-00-00.tsktd4r.mongodb.net:27017,ac-5j9u7mb-shard-00-01.tsktd4r.mongodb.net:27017,ac-5j9u7mb-shard-00-02.tsktd4r.mongodb.net:27017/?ssl=true&replicaSet=atlas-ammy0t-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002094281038"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001613294962"))
-FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001968299409"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1001821544841"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001606960751"))
+FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1001742755153"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐀𝐦 𝐚 𝐅𝐢𝐥𝐞-𝐒𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!")
 try:
-    ADMINS=[6376328008]
+    ADMINS=[6039119180]
     for x in (os.environ.get("ADMINS", "6590244406 5747064963 6909543564").split()):
         ADMINS.append(int(x))
 except ValueError:
