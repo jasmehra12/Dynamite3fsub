@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://kumarmishrar50:mBaG9rDvaY
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002320843659"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002214523988"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1001606960751"))
 FORCESUB_CHANNEL3 = int(os.environ.get("FORCESUB_CHANNEL3", "-1002214523988"))
 
@@ -42,7 +42,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐀𝐦 𝐚 𝐅𝐢𝐥𝐞-𝐒𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!")
 try:
     ADMINS=[6039119180]
-    for x in (os.environ.get("ADMINS", "6039119180 1062696649").split()):
+    for x in (os.environ.get("ADMINS", "6039119180 1062696649 7086472788").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
