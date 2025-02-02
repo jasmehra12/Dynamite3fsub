@@ -1,14 +1,8 @@
-# --- For-Bot-Working --------- #
+
 pyrogram
 TgCrypto
 pyromod==1.5
-
-# --- For-Database ------------ #
 pymongo
 dnspython
-
-# --- For-Web-Response ------- #
 aiohttp
-
-# --- For-Dev Branch of Pyrogram ---- #
-git+https://github.com/KurimuzonAkuma/pyrogram.git@dev#egg=pyrogram
+git+https://codeload.github.com/KurimuzonAkuma/pyrogram/zip/refs/heads/dev
