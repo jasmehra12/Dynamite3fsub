@@ -1,6 +1,7 @@
 from bot import Bot
 import asyncio
 import aiohttp
+
 URL = "https://rolling-nikkie-drxyhacker12-3c8942d4.koyeb.app/"
 async def ping():
     async with aiohttp.ClientSession() as session:
@@ -13,4 +14,4 @@ async def ping():
             await asyncio.sleep(600)
 loop = asyncio.get_event_loop()
 loop.create_task(ping())
-Bot().run()
+Bot.run()
