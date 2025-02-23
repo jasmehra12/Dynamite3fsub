@@ -15,5 +15,5 @@ async def ping():
             await asyncio.sleep(600)
 
 loop = asyncio.get_event_loop()
-loop.create_task(ping()
+loop.create_task(ping())
 Bot().run()
