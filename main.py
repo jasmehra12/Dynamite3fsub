@@ -2,7 +2,7 @@ from bot import Bot
 import asyncio
 import aiohttp
 
-URL = "https://rolling-nikkie-drxyhacker12-3c8942d4.koyeb.app/"  # Replace with your koyeb app link...
+"URL = "https://rolling-nikkie-drxyhacker12-3c8942d4.koyeb.app/"  # Replace with your koyeb app link...
 
 async def ping():
     async with aiohttp.ClientSession() as session:
