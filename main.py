@@ -10,7 +10,7 @@ async def ping():
             try:
                 async with session.get(URL) as response:
                     print(f"Pinged server, status: {response.status}")
-            except Exception as e:
+            except Exception as e:
                 print(f"{e}")
             await asyncio.sleep(600)
 
